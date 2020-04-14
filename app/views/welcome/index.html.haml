@@ -1,1 +1,33 @@
-%h1 welcome
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your Online NoteBook.Never Forget Your Idea
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "The greatest notebook application. Period."
+		%p.name - Mackenzie and Praveen
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+
+			.callout
+				%h2 Rocket
+				%p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+
+			.callout
+				%h2 Lighting
+				%p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+#bottom_cta
+	.wrapper
+		%h2 For Realz!
+		%p I want you to sign up... If you don’t. I will find you!
+		%button= link_to "Click Meee!!!", new_user_registration_path
+
+%footer
+	%p &copy; Praveen
